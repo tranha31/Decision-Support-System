@@ -1,0 +1,416 @@
+.grid-content{
+    overflow: unset;
+    max-height: none;
+    min-width: 100%;
+    padding-right: 30px !important;
+    z-index: 5;
+}
+.grid-table{
+    border-spacing: 0;
+    min-width: 100%;
+}
+.th-checkbox{
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    position: sticky;
+    left: 16px;
+    top: 0px;
+    
+    align-items: center;
+    padding: 0 !important;
+}
+.td-checkbox{
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    position: sticky;
+    left: 16px;
+    align-items: center;
+    padding: 0 !important;
+}
+.th-viewer{
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    min-height: 34px;
+    height: 34px;
+    position: sticky;
+    z-index: 2;
+    top: 0px !important;
+    background-color: #eceef1;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.th-viewer .header-table-option{
+    border: 1px solid #707070;
+    display: none;
+}
+.th-lastchild{
+    padding-right: 22px !important;
+}
+.checkbox{
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    background: #ffffff;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+.checkbox-active{
+    border-color: #2ca01c !important;
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1294px -562px;
+	
+}
+.hidden-function{
+    display: none;
+}
+th{
+    z-index: 60 !important;
+}
+.th-employee{
+    z-index: 65 !important;
+}
+.td-code{
+    min-width: 180px;
+    width: 180px;
+    left: unset !important;
+    z-index: 3;
+    
+}
+
+.td-name{
+    min-width: 200px;
+    width: 200px;
+    left: unset !important;
+    
+}
+
+.td-amount{
+    min-width: 120px;
+    width: 120px;
+    left: unset !important;
+}
+
+.td-address{
+    min-width: 300px;
+    width: 300px;
+    left: unset !important;
+    
+}
+.td-tax{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+}
+.td-gender{
+    min-width: 105px;
+    width: 105px;
+    left: unset !important;
+    
+}
+.td-dob{
+    min-width: 250px;
+    width: 250px;
+    text-align: center !important;
+    left: unset !important;
+    
+}
+.td-phone{
+    min-width: 250px;
+    width: 250px;
+    text-align: left !important;
+    left: unset !important;
+    
+}
+.td-identity{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+    
+}
+.td-position{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+    
+}
+.td-department{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+    
+}
+.td-account{
+    min-width: 150px;
+    width: 150px;
+    left: unset !important;
+   
+}
+.td-bank-name{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+    
+}
+.td-bank-branch{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+    
+}
+.td-option{
+    min-width: 200px;
+    width: 200px;
+    left: unset !important;
+    border-left: 1px solid #c7c7c7;
+    border-right: unset !important;
+    text-align: right;
+    position: sticky;
+}
+
+.td-weight{
+    min-width: 100px;
+    width: 100px;
+    left: unset !important;
+}
+
+.td-type{
+    min-width: 170px;
+    width: 170px;
+    left: unset !important;
+}
+
+.td-condition{
+    min-width: 250px;
+    width: 250px;
+    left: unset !important;
+}
+
+.white-cell{
+    min-width: 16px;
+    max-width: 16px;
+    width: 16px;
+    background: #fff !important;
+    position: sticky;
+    left: 0;
+    border: 0;
+    z-index: 25;
+    padding: 0;
+}
+.white-cell-right, .td-white-cell-right{
+    min-width: 30px;
+    position: sticky;
+    border: none;
+    background: #ffffff !important;
+    right: 29px;
+    z-index: 85 !important;
+    padding: 0;
+}
+.grey-cell, .td-grey-cell{
+    background-color: #f8f8f8 !important;
+    min-width: 31px;
+    border: none;
+    position: sticky;
+    z-index: 90;
+    right: -1px;
+}
+
+tr.choosed .td-view{
+    background-color: #f8f8f8;
+}
+.td-view{
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7 ;
+    height: 47px;
+    z-index: 2;
+    background-color: #ffffff ;
+    vertical-align: middle;
+    padding: 5px 10px;
+    white-space: pre-;
+    text-align: center;
+}
+
+.td-stt{
+    min-width: 50px;
+    width: 50px;
+    left: unset !important;
+}
+
+
+tr:hover td{
+    background-color: #f5f8f8;
+}
+.td-view .function{
+    display: flex;
+    justify-content: center;
+}
+.td-view .function .edit{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #0075c0;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.condition-container{
+    position: absolute;
+    right: 0;
+    top: 33px;
+    border: 1px solid #babec5;
+    padding: 22px 17px;
+    box-shadow: 3px 3px 6px #dddddd;
+    z-index: 100;
+    background-color: #ffffff;
+    width: fit-content;
+    font-weight: 100 !important;
+    border-radius: 2px;
+    min-width: 350px;
+    display: none;
+}
+.condition-container.active{
+    display: block;
+}
+.condition-container .lock{
+    position: relative;
+    padding-left: 30px;
+    line-height: 24px;
+    cursor: pointer;
+    border-bottom: 1px solid #ebedf0;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+}
+
+.condition-container .lock::before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 24px;
+    width: 24px;
+    top: 0;
+    left: 2px;
+    background: transparent url(../../assets/img/Sprites.64af8f61.svg) no-repeat -1726px -560px;
+}
+
+.condition-container .filter-container{
+    margin: 14px 0;
+}
+
+.filter-container .view-filter-text{
+    white-space: nowrap;
+}
+
+.filter-container .view-filter-text .column-filter{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.filter-container .view-filter-text .filter-option-dropdown{
+    display: inline-block;
+}
+
+.filter-option-dropdown button{
+    background-color: #ffffff;
+    border: none;
+}
+.filter-option-dropdown .filter-op{
+    font-size: 13px;
+    font-weight: 600;
+    color: #0075c0;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 19px;
+}
+.filter-option-dropdown .filter-op::after{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 13px;
+    background: transparent url(../../assets/img/Sprites.64af8f61.svg) no-repeat -178px -363px;
+    top: 4px;
+    right: 2px;
+}
+
+.filter-option-dropdown .list-option-filter{
+    position: absolute;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 2px 1px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    display: none;
+}
+
+.filter-option-dropdown .list-option-filter.active{
+    display: block;
+    z-index: 99;
+}
+
+.filter-option-dropdown .list-option-filter li{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.filter-option-dropdown .list-option-filter li:hover{
+    background-color: #ebedf0;
+    color: #3ca62d;
+}
+.view-filter-text .filter-value{
+    padding: 6px 10px;
+    margin-top: 11px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    height: 32px;
+    display: block;
+    width: 100%;
+}
+.view-filter-text .filter-value:focus{
+    border-color: #4ea344 !important;
+}
+.view-filter-text .filter-value:hover{
+    box-shadow: 1px 1px 5px #bebebe;
+}
+.view-filter-text .filter-value::placeholder{
+    color: #babec5;
+    font-family: notosans-italic;
+}
+
+.condition-container .buttons{
+    margin-top: 16px;
+}
+
+.buttons .btn-option{
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.buttons .btn-delete{
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    color: #111111;
+}
+.buttons .btn-delete:hover{
+    background-color: #d2d3d6 !important;
+}
+
+.buttons .btn-filter{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #2ca01c;
+}
+
+.buttons .btn-filter:hover{
+    background-color: #35bf22 !important;
+}

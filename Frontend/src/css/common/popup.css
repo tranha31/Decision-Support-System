@@ -1,0 +1,107 @@
+.donot-show{
+    display: none;
+}
+.popup-container{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 55500000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-container .background{
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+.popup-container .popup{
+    width: 444px;
+    background-color: #ffffff;
+    opacity: 1;
+    z-index: 1;
+    padding: 32px;
+    animation: scale ease 1s;
+    border-radius: 3px;
+}
+
+@keyframes scale {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.popup .popup-content{
+    display: flex;
+    border-bottom: 1px solid #b8bcc3;
+}
+.popup .popup-content .info{
+    background-position: -826px -456px;
+}
+.popup .popup-content .warning{
+    background-position: -592px -456px;
+}
+.popup .popup-content .error{
+    background-position: -24px -954px;
+}
+.popup .popup-content .content{
+    padding-left: 16px;
+    padding-top: 12px;
+    margin-bottom: 32px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.popup .popup-content .content .title{
+    padding-bottom: 11px;
+    font-family: notosans-bold;
+}
+
+.popup .popup-footer{
+    height: 36px;
+    display: flex;
+    margin-top: 20px;
+}
+.popup .popup-footer .button-popup{
+    padding: 8px 20px;
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.popup .popup-footer .button-popup:hover{
+    background-color: #d2d3d6;
+}
+.popup .popup-footer .flex{
+    flex: 1;
+}
+.popup .popup-footer .button-2{
+    margin-right: 8px;
+}
+
+.popup-footer .button-3{
+    color: #ffffff;
+    background-color: #2ca01c !important;
+}
+.popup-footer .button-3:hover{
+    background-color: #35bf22 !important;
+}
+.popup-footer .button-4{
+    color: #ffffff;
+    background-color: #2ca01c !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popup-footer .button-4:hover{
+    background-color: #35bf22 !important;
+}
+.popup .popup-footer .hidden{
+    display: none;
+}
