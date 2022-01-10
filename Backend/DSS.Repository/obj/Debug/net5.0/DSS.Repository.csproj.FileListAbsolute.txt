@@ -1,0 +1,17 @@
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\bin\Debug\net5.0\DSS.Repository.deps.json
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\bin\Debug\net5.0\DSS.Repository.dll
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\bin\Debug\net5.0\ref\DSS.Repository.dll
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\bin\Debug\net5.0\DSS.Repository.pdb
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\bin\Debug\net5.0\DSS.Core.dll
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\bin\Debug\net5.0\DSS.Core.pdb
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.csproj.AssemblyReference.cache
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.Properties.Resources.resources
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.csproj.GenerateResource.cache
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.AssemblyInfoInputs.cache
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.AssemblyInfo.cs
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.csproj.CoreCompileInputs.cache
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.csproj.CopyComplete
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.dll
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\ref\DSS.Repository.dll
+C:\Users\TaHa\source\repos\DSS.API\DSS.Repository\obj\Debug\net5.0\DSS.Repository.pdb
